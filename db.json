@@ -1,14 +1,206 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "status": {
+    "code": 1000,
+    "header": "",
+    "description": "Success"
+  },
+  "data": {
+    "customText": "วันนี้ทำอะไรดี",
+    "homeLandingList": [
+      {
+        "objectName": "SERVICE_CARD",
+        "firebaseTrack": "",
+        "type": "CARD",
+        "sortSequence": 1,
+        "title": "",
+        "object": [
+          {
+            "serviceText": "อาหาร",
+            "serviceTitle": "รวมร้านอาหารเครื่องดื่ม",
+            "serviceDescription": "100,000+ ร้านอาหารดังทั่วกรุงเทพ และปริมณฑล",
+            "imageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/image/1",
+            "largeImageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/largeImage/1",
+            "sortSequence": 1,
+            "service": "FOOD"
+          },
+          {
+            "serviceText": "ท่องเที่ยว",
+            "serviceTitle": "หาประสบการณ์ใหม่ๆกัน",
+            "serviceDescription": "50,000+ โรงแรม",
+            "imageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/image/2",
+            "largeImageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/largeImage/2",
+            "sortSequence": 2,
+            "service": "OTA"
+          },
+          {
+            "serviceText": "ซื้อของ",
+            "serviceTitle": "ส่งตรงจาก Super ชั้นนำ",
+            "serviceDescription": "1,000+ สาขา",
+            "imageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/image/3",
+            "largeImageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/largeImage/3",
+            "sortSequence": 3,
+            "service": "MART"
+          },
+          {
+            "serviceText": "ส่งของ",
+            "serviceTitle": "เรียก Messenger ด่วน",
+            "serviceDescription": "20,000+ ไรเดอร์พร้อมส่ง",
+            "imageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/image/4",
+            "largeImageUrl": "https://static-dev.alp-robinhood.com/superapp/serviceCard/largeImage/4",
+            "sortSequence": 4,
+            "service": "EXPRESS"
+          }
+        ]
+      },
+      {
+        "objectName": "SUPERAPP_LANDING_ADS",
+        "firebaseTrack": "",
+        "type": "EITHER_MASTHEAD_CAROUSEL_ADS",
+        "sortSequence": 2,
+        "title": "",
+        "delayTime": 0,
+        "requestBody": {
+          "user": {
+            "key": "${userId}"
+          },
+          "placements": [
+            {
+              "divName": "masthead",
+              "networkId": 10804,
+              "siteId": 1180122,
+              "zoneIds": [
+                255500
+              ],
+              "adTypes": [
+                3095
+              ],
+              "eventIds": [
+                40
+              ],
+              "properties": "${taxonomy}"
+            },
+            {
+              "divName": "carousel",
+              "networkId": 10804,
+              "siteId": 1180122,
+              "zoneIds": [
+                255535
+              ],
+              "adTypes": [
+                1578
+              ],
+              "count": 4,
+              "eventIds": [
+                40
+              ],
+              "properties": "${taxonomy}"
+            }
+          ],
+          "intendedLatitude": "${latitude}",
+          "intendedLongitude": "${longitude}",
+          "keywords": "${keywords}"
+        }
+      },
+      {
+        "objectName": "DYNAMIC_BANNER1",
+        "firebaseTrack": "",
+        "type": "BANNER_CAROUSEL",
+        "sortSequence": 3,
+        "title": "",
+        "object": [
+          {
+            "id": 7,
+            "sortSequence": 1,
+            "imageUrl": "http://banner/image/image07_th.jpg",
+            "deeplinkUrl": "https://image07-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "DEEPLINK"
+          },
+          {
+            "id": 6,
+            "sortSequence": 2,
+            "imageUrl": "http://banner/image/image06_th.jpg",
+            "deeplinkUrl": "https://image06-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "EXTERNAL"
+          }
+        ]
+      },
+      {
+        "objectName": "DYNAMIC_BANNER2",
+        "firebaseTrack": "",
+        "type": "BANNER_CAROUSEL",
+        "sortSequence": 4,
+        "title": "",
+        "object": [
+          {
+            "id": 11,
+            "sortSequence": 1,
+            "imageUrl": "http://banner/image/image11_th.jpg",
+            "deeplinkUrl": "https://image11-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "WEBVIEW"
+          },
+          {
+            "id": 62,
+            "sortSequence": 2,
+            "imageUrl": "http://banner/image/image062_th.jpg",
+            "deeplinkUrl": "https://image062-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "EXTERNAL"
+          }
+        ]
+      },
+      {
+        "objectName": "DYNAMIC_BANNER3",
+        "firebaseTrack": "",
+        "type": "BANNER_CAROUSEL",
+        "sortSequence": 5,
+        "title": "",
+        "object": [
+          {
+            "id": "74",
+            "sortSequence": 1,
+            "imageUrl": "http://banner/image/image074_th.jpg",
+            "deeplinkUrl": "https://image074-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "DEEPLINK"
+          },
+          {
+            "id": "99",
+            "sortSequence": 2,
+            "imageUrl": "http://banner/image/image099_th.jpg",
+            "deeplinkUrl": "https://image099-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "DEEPLINK"
+          }
+        ]
+      },
+      {
+        "objectName": "DYNAMIC_BANNER4",
+        "firebaseTrack": "",
+        "type": "BANNER_CAROUSEL",
+        "sortSequence": 6,
+        "title": "",
+        "object": [
+          {
+            "id": "888",
+            "sortSequence": 1,
+            "imageUrl": "http://banner/image/image888_th.jpg",
+            "deeplinkUrl": "https://image888-deeplink_th",
+            "lookupDeeplink": false,
+            "deeplinkType": "WEBVIEW"
+          },
+          {
+            "id": "754",
+            "sortSequence": 2,
+            "imageUrl": "http://banner/image/image754_th.jpg",
+            "deeplinkUrl": "lookup-deeplink",
+            "lookupDeeplink": true,
+            "deeplinkType": "EXTERNAL"
+          }
+        ]
+      }
+    ]
   }
 }
