@@ -24,22 +24,9 @@
   "edit_profile_birthday_placeholder": "วันเดือนปี",
   "edit_profile_update": "อัปเดต",
   "language_settings_title": "ตั้งค่าภาษา",
-  "language_settings_en": "English",
-  "language_settings_thai": "ประเทศไทย",
-  "language_settings_indonesian": "ภาษา",
-  "language_settings_china": "普通话",
-  "language_settings_south_korea": "한국인",
-  "language_settings_japan": "日本語",
-  "language_settings_vietnam": "Tiếng Việt",
   "language_settings_apply": "นำมาใช้",
   "notification_settings_title": "การตั้งค่าการแจ้งเตือน",
   "notification_settings_push": "ดัน",
   "notification_settings_all": "ทั้งหมด",
-  "notification_settings_community_updates": "การอัปเดตชุมชนทั้งหมด",
-  "notification_settings_direct_messages": "ข้อความโดยตรง",
-  "notification_settings_order_updates": "อัพเดทออเดอร์",
-  "notification_settings_sms": "ข้อความ",
-  "notification_settings_sms_notification": "การแจ้งเตือนทาง SMS",
-  "notification_settings_enable_notification": "เปิดใช้งานการแจ้งเตือน",
-  "notification_settings_enable_notification_details": "จุด. การแจ้งเตือนถูกปิดใช้งานในการตั้งค่าโทรศัพท์ของคุณ เปิดใช้งานการแจ้งเตือนเพื่อรับการแจ้งเตือนข้อความและวิดีโอใหม่จากดาราคนโปรดของคุณ"
+  "notification_settings_community_updates": "การอัปเดตชุมชนทั้งหมด"
 }
